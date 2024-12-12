@@ -26,15 +26,15 @@ If there is no protection against brute forcing, we can simply try every combina
 Example lab:
 https://portswigger.net/web-security/authentication/multi-factor/lab-2fa-bypass-using-a-brute-force-attack
 
-## Passport Reset / Email Change - 2FA Disable
+## Password Reset / Email Change - 2FA Disable
+If we are able to get the user to change their password or email, 2FA gets disabled, and this may cause a security problem.
 
 ## Missing 2FA Code Integrity Validation
 
 In this scenario, we are able to use the valid 2FA code we received for our own account, for the authentication of the other account that we intend to access, as the program only checks if the code is valid, not whether the code belongs to the account it is being used for.
 
 ## Clickjacking / CSRF on 2FA page
-
-%%What is clickjacking/csrf%%
+!TODO: explain clickjacking and csrf
 
 
 ## Previously created sessions aren't terminated after 2FA is activated
@@ -49,5 +49,5 @@ https://hackerone.com/reports/897385
 
 
 
-
+Some resources I have used:
 https://github.com/daffainfo/AllAboutBugBounty/blob/master/Bypass/Bypass%202FA.md
