@@ -1,1 +1,1 @@
-In this repository I will be following Harsh Botra's Learn365 and documenting the things I have learned from my studies each day, mostly for note-taking for myself.
+In this repository I will be following Harsh Botra's [Learn365](https://github.com/harsh-bothra/learn365/) and documenting the things I have learned from my studies each day, mostly for note-taking for myself.
